@@ -18,3 +18,32 @@ img:nth-child(2) {
 img:last-child {
   display: none;
 }
+
+@media only screen and (min-width: 25em) {
+
+  img:nth-child(4),
+  img:nth-child(3),
+  img:nth-child(2),
+  img:last-child {
+    display: block;
+    float: left;
+    width: 50%;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  img:nth-child(4),
+  img:nth-child(3),
+  img:nth-child(2) {
+    display: block;
+    float: left;
+    width: 33.3333%;
+  }
+
+  img:last-child {
+    display: none;
+  }
+
+}
